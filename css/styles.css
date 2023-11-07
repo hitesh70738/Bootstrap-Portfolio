@@ -1,7 +1,12 @@
 /* Nav bar */
 
 * {
-    /* background-image: url(/images/icons-back.webp); */
+    /* background-color: yellow; */
+}
+
+body {
+    background-color: black;
+    
 }
 
 /* Myskill */
@@ -9,28 +14,57 @@
 nav {
     /* margin: 20px; */
     /* border-style: dashed; */
+    color: white;
+    margin-top: 18px;
+    
+    
+}
+.navImage {
+    margin-right: 20px;
 }
 nav a {
     color: black;
 }
+
+#navcolor {
+    color: white;
+}
 .navbar-brand {
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
-.skill {
-    border-style: dashed;
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
 }
+
+.navCTA {
+    font-size: 15px;
+    padding: 10px;
+}
+
 
 
 /* jumbotron */
 
-#margin {
-    margin: 40px;
-    border-style: dashed;
+.mediaBackground {
+    background-image: url("../images/icons-back.webp");
+}
+
+.jumbocolor {
+    color: yellow;
+}
+
+
+
+/* Skills  */
+
+.skills-img {
+    background-color: black;
 }
 
 #color {
-    color: black;
+    color: yellow;
 }
 
 .btn-lg {
@@ -41,13 +75,36 @@ nav a {
     margin-top: 50px;
 }
 
-#row-id {
-    border-style: dashed;
-}
 
 
 #border {
-    border-style: dashed;
+    /* border-style: dashed; */
     margin-top: 35px;
 }
 
+.card-aboutme {
+    border: none;
+}
+
+.btn-shadow-hover:hover {
+    box-shadow: 0 0 80px rgba(114, 254, 0, 0.3);
+}
+
+#contact-info {
+    float: left;
+}
+
+.text-end {
+    margin-right: 150px;
+    
+}
+
+/* @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .card {
+    height: 100%;
+  } */
