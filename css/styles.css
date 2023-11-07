@@ -1,0 +1,53 @@
+/* Nav bar */
+
+* {
+    /* background-image: url(/images/icons-back.webp); */
+}
+
+/* Myskill */
+
+nav {
+    /* margin: 20px; */
+    /* border-style: dashed; */
+}
+nav a {
+    color: black;
+}
+.navbar-brand {
+    margin-left: 80px;
+}
+
+.skill {
+    border-style: dashed;
+}
+
+
+/* jumbotron */
+
+#margin {
+    margin: 40px;
+    border-style: dashed;
+}
+
+#color {
+    color: black;
+}
+
+.btn-lg {
+    margin-right: 20px;
+}
+
+#container-w {
+    margin-top: 50px;
+}
+
+#row-id {
+    border-style: dashed;
+}
+
+
+#border {
+    border-style: dashed;
+    margin-top: 35px;
+}
+
