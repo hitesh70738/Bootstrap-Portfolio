@@ -14,21 +14,33 @@
 
     <!-- Nav Bar -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" id="color">Hitesh Patel</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid bg-dark">
+          <a class="navbar-brand" href="#" id="navcolor"><img class="navImage" src="./images/profile-pic.jpeg" height="50" width="50" alt="">Hitesh Patel</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent" >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" id="color">Home</a>
+                <a class="nav-link active" aria-current="page" href="#" id="navcolor">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#myskill" id="color">My Skill</a>
+                <a class="nav-link" href="#myskill" id="navcolor">My Skill</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="#mywork" id="navcolor">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutMe" id="navcolor">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactinfo" id="navcolor">Contact-info</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary btn-lg navCTA btn-shadow-hover" href="./Hitesh's CV-COPY.docx" target="_blank" role="buttom">Resume</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
@@ -38,7 +50,7 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" id="color" href="#">Something else here</a></li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
             <!-- <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -52,10 +64,11 @@
 
     <!-- Jumbotron -->
 
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="margin">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 mediaBackground jumbocolor">
+      <img class="rounded float-end" src="./images/profile-pic.jpeg" height="180" width="180" alt="">
         <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold" id="color">Hi My name is Hitesh</h1>
-            <p class="col-md-8 fs-4" id="color">Random message need editiing later</p>
+            <h1 class="display-5 fw-bold" id="jumbocolor">Hi My name is Hitesh</h1>
+            <p class="col-md-8 fs-4" id="jumbocolor">Welcome to my portfolio. Browse through to find out more about myself</p>
         </div>
     </div>
 
@@ -64,32 +77,40 @@
 
     <div class="container" id="color">
         <h1 id="myskill">My Skills</h1>
-        <div class="row" >
-            <div class="skill col-4">Skill-1
+        <div class="row">
+            <div class="col-4">
               <div class="card">
-                <img src="./images/icons-back.webp" class="top-img" alt="">
-                <div class="card body">
-                  <h4 class="card-title">Card title</h4>
-                  <p>Add info here about skill</p>
+                <img src="./images/coding.jpeg" alt="image of random code">
+                <div class="card skills-img" id="color">
+                  <h4 class="card-title" >Python</h4>
+                  <p>I have worked on some python tasks click button below to find out more
+                    <a href="https://github.com/hitesh70738/project2" target="_blank" class="btn btn-primary btn-sm btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">Python example</a>
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="skill col-4">Skill-2
+            <div class="skill col-4">
                 <div class="card">
-                  <img src="./images/icons-back.webp" class="top-img" alt="">
-                  <div class="card body">
-                    <h4 class="card-title">Card title</h4>
-                    <p>Add info here about skill</p>
-                  </div>
+                  <img src="./images/coding.jpeg" alt="image of random code">
+                  <div class="card skills-img" id="color">
+                    <h4 class="card-title">HTML & CSS</h4>
+                    <p>This is my first ever profile I made for myself
+                      <br>
+                      <a href="https://github.com/hitesh70738/world-of-hitesh" target="_blank" class="btn btn-primary btn-sm btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">Profile</a>
+                    </p>  
+                    </div>
                 
                 </div>
               </div>
-              <div class="skill col-4">Skill-3
+              <div class="skill col-4">
                 <div class="card">
-                  <img src="./images/icons-back.webp" class="top-img" alt="">
-                  <div class="card body">
-                    <h4 class="card-title">Card title</h4>
-                    <p>Add info here about skill</p>
+                  <img src="./images/coding.jpeg" alt="image of random code">
+                  <div class="card skills-img" id="color">
+                    <h4 class="card-title">Bootstrap</h4>
+                    <p>Some experience using bootstrap and seeing the importance of it
+                      <br>
+                      <a href="https://github.com/hitesh70738/Bootstrap-Portfolio" target="_blank" class="btn btn-primary btn-sm btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">Bootstrap</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -98,55 +119,63 @@
     <!-- My work section  -->
 
     <div class="container" id="container-w">
-      <h1>My Work</h1>
-      <div class="row" id="row-id">
+      <h1 id="mywork">My Work</h1>
+      <div class="row">
         <div class="col-5">
           <div class="card my-5">
-            <img src="./images/icons-back.webp">
+            <img src="./images/coding.jpeg" alt="image of random code">
           </div>
         </div>
-        <div class="col my-5">Work1
-          <h4>Agency Porject</h4>
+        <div class="col my-5">
+          <h4>Agency Project</h4>
           <p>This project was undertaken while studying the Front-end web development course with
             edx.
+            <a href="https://github.com/hitesh70738/horiseon-agency" target="_blank" class="btn btn-primary btn-sm btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">horiseon-agency</a>
           </p>
         </div>
         <div class="w-100"></div>
         <div class="col-5">
           <div class="card my-5">
-            <img src="./images/icons-back.webp" alt="">
-          </div>
-        </div>
-        <div class="col my-5">work2
-          <h4>#Project</h4>
-          <p>Project coming soon</p>
-        </div>
-        <div class="w-100"></div>
-        <div class="col-5">
-          <div class="card my-5">
-            <img src="./images/icons-back.webp" alt="">
+            <img src="https://placehold.co/600x400/png" alt="placeholder image 600x400">
           </div>
         </div>
         <div class="col my-5">
           <h4>#Project</h4>
-          <p>Project coming soon</p>
+          <p>Project coming soon
+            <br>
+            <a href="#" class="btn btn-primary btn-sm btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">Project coming soon</a>
+          </p>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-5">
+          <div class="card my-5">
+            <img src="https://placehold.co/600x400/png" alt="placeholder image 600x400">
+          </div>
+        </div>
+        <div class="col my-5">
+          <h4>#Project</h4>
+          <p>Project coming soon
+            <br>
+            <a href="#" class="btn btn-primary btn-sm btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">Project coming soon</a>
+          </p>
         </div>
       </div>
     </div>
 
     <!-- About me -->
     <div class="container" id="border">
+      <h2 id="aboutMe">About me</h2>
       <div class="row" >
-        <div class="col-5">
+        <div class="col-5 mx-5 my-5">
           <p>
           I'm Hitesh Patel, and I'm a DevOps engineer looking to continue my journey in this field. I've had valuable experience in my role as a DevOps Engineer at Tata Consultancy Services, where I had the privilege of working with HSBC.
           I am currently enrolled into a Front-end web development course. I have always been curios with front-end and thought why not get some valuable experience in this field.
           See below some of the projects I have been working on!
           </p>
         </div>
-        <div class="col-5">
-          <div class="card my-5">
-            <img src="./images/icons-back.webp" alt="" class="rounded-circle">
+        <div class="col-5 mx-5 my-5">
+          <div class="card-aboutme text-end">
+            <img src="./images/profile-pic.jpeg" height="200" width="200" class="rounded-circle">
           </div>
         </div>
       </div>
@@ -154,14 +183,20 @@
 
 
     <!-- Footer section -->
-    <h2>Contact-info</h2>
-    <div class="container my-5">
-      <footer class="text-center text-lg-starter" style="background-color: grey;">
+    <div class="container my-5" id="contactinfo">
+      <footer class="text-center text-lg-starter">
+        <h2 id="contact-info">Contact-info</h2>
         <div class="container d-flex justify-content-center py-5">
-          <a href="https://github.com/hitesh70738" target="_blank" class="btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true">GitHub</a>
-          <a href="https://github.com/hitesh70738" target="_blank" class="btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true">GitHub</a>
-          
+          <a href="https://github.com/hitesh70738" target="_blank" class="btn btn-primary btn-lg btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">GitHub</a>
+          <a href="https://www.linkedin.com/in/hitesh-patel-70738/" target="_blank" class="btn btn-primary btn-lg btn-shadow-hover" tabindex="-1" role="button" aria-disabled="true">LinkdIn</a>
         </div>
+
+        <!-- Copyright -->
+        <div class="text-center">
+          <p>@2023 Copyright by Hitesh Patel</p>
+        </div>
+
+
       </footer>
     </div>
 
