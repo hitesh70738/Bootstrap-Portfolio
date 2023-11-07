@@ -1,23 +1,14 @@
-/* Nav bar */
-
-* {
-    /* background-color: yellow; */
-}
-
 body {
     background-color: black;
     
 }
 
-/* Myskill */
+/* Nav bar */
 
 nav {
-    /* margin: 20px; */
-    /* border-style: dashed; */
     color: white;
     margin-top: 18px;
-    
-    
+        
 }
 .navImage {
     margin-right: 20px;
@@ -29,9 +20,7 @@ nav a {
 #navcolor {
     color: white;
 }
-.navbar-brand {
-    /* margin-left: 80px; */
-}
+
 
 .navbar-nav {
     margin-left: auto;
@@ -76,9 +65,7 @@ nav a {
 }
 
 
-
 #border {
-    /* border-style: dashed; */
     margin-top: 35px;
 }
 
@@ -98,13 +85,3 @@ nav a {
     margin-right: 150px;
     
 }
-
-/* @media (min-width: 992px) {
-    body {
-      padding-top: 56px;
-    }
-  }
-  
-  .card {
-    height: 100%;
-  } */
